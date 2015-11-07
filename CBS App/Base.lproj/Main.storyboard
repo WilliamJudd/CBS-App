@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="BYZ-38-t0r">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Dny-yN-bUy">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -21,6 +21,10 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <animations/>
                             </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CBS eye gold" translatesAutoresizingMaskIntoConstraints="NO" id="LrL-1j-qye">
+                                <rect key="frame" x="264" y="392" width="240" height="240"/>
+                                <animations/>
+                            </imageView>
                         </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
@@ -31,28 +35,172 @@
             </objects>
             <point key="canvasLocation" x="380" y="315"/>
         </scene>
-        <!--View Controller-->
-        <scene sceneID="v0j-ir-nWQ">
+        <!--Sign Up View Controller-->
+        <scene sceneID="ikg-ok-VfA">
             <objects>
-                <viewController id="0fg-el-7Br" sceneMemberID="viewController">
+                <viewController id="Dny-yN-bUy" customClass="SignUpViewController" customModule="CBS_App" customModuleProvider="target" sceneMemberID="viewController">
                     <layoutGuides>
-                        <viewControllerLayoutGuide type="top" id="nDp-Yi-dYE"/>
-                        <viewControllerLayoutGuide type="bottom" id="Bmy-PP-RSF"/>
+                        <viewControllerLayoutGuide type="top" id="IVJ-Rg-4Ot"/>
+                        <viewControllerLayoutGuide type="bottom" id="CIq-4s-dPo"/>
                     </layoutGuides>
-                    <view key="view" contentMode="scaleToFill" id="Hs2-K0-Cxb">
+                    <view key="view" contentMode="scaleToFill" id="XJh-fQ-dHd">
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black5" translatesAutoresizingMaskIntoConstraints="NO" id="AgR-a0-BAf">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text_field_back" translatesAutoresizingMaskIntoConstraints="NO" id="Fiq-fv-MnI">
+                                <rect key="frame" x="127" y="248" width="524" height="74"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text_field_back" translatesAutoresizingMaskIntoConstraints="NO" id="lG4-xv-ZZt">
+                                <rect key="frame" x="127" y="325" width="524" height="74"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text_field_back" translatesAutoresizingMaskIntoConstraints="NO" id="1JT-3b-KzM">
+                                <rect key="frame" x="127" y="402" width="524" height="74"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text_field_back" translatesAutoresizingMaskIntoConstraints="NO" id="WED-6n-KcW">
+                                <rect key="frame" x="127" y="479" width="524" height="74"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="text_field_back" translatesAutoresizingMaskIntoConstraints="NO" id="7zi-aL-Npw">
+                                <rect key="frame" x="127" y="556" width="524" height="74"/>
+                                <animations/>
+                            </imageView>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="First Name" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="8MU-nR-XUB">
+                                <rect key="frame" x="162" y="248" width="484" height="74"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="36"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Dny-yN-bUy" id="pg4-KV-JtE"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Last Name" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="HeQ-P2-EsC">
+                                <rect key="frame" x="162" y="325" width="484" height="74"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="36"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Dny-yN-bUy" id="vYU-mi-E88"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Email" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="HE8-R1-gbs">
+                                <rect key="frame" x="162" y="402" width="484" height="74"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="36"/>
+                                <textInputTraits key="textInputTraits" autocorrectionType="no" spellCheckingType="no" keyboardType="emailAddress" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Dny-yN-bUy" id="oxK-wz-Ylt"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Company" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="mlw-cI-IKL">
+                                <rect key="frame" x="162" y="479" width="484" height="74"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="36"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Dny-yN-bUy" id="k3i-Wi-KpY"/>
+                                </connections>
+                            </textField>
+                            <textField opaque="NO" clipsSubviews="YES" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" placeholder="Zip Code" adjustsFontSizeToFit="NO" minimumFontSize="17" clearButtonMode="whileEditing" translatesAutoresizingMaskIntoConstraints="NO" id="IhW-mv-Rw9">
+                                <rect key="frame" x="162" y="556" width="484" height="74"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" name="HelveticaNeue-Thin" family="Helvetica Neue" pointSize="36"/>
+                                <textInputTraits key="textInputTraits" autocapitalizationType="words" autocorrectionType="no" spellCheckingType="no" keyboardType="numbersAndPunctuation" returnKeyType="next" enablesReturnKeyAutomatically="YES"/>
+                                <connections>
+                                    <outlet property="delegate" destination="Dny-yN-bUy" id="wX5-gO-WhA"/>
+                                </connections>
+                            </textField>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="wWP-xv-13W">
+                                <rect key="frame" x="571" y="640" width="70" height="70"/>
+                                <animations/>
+                                <state key="normal" image="next_button">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="next:" destination="Dny-yN-bUy" eventType="touchUpInside" id="34g-VX-5eV"/>
+                                </connections>
+                            </button>
+                            <label opaque="NO" userInteractionEnabled="NO" alpha="0.40000000596046448" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" text="Label" textAlignment="right" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="eh6-Qj-9nu">
+                                <rect key="frame" x="117" y="220" width="524" height="20"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="14"/>
+                                <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                <nil key="highlightedColor"/>
+                            </label>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="E3o-9i-h6i">
+                                <rect key="frame" x="578" y="346" width="42" height="32"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="1mq-ub-XKF">
+                                <rect key="frame" x="578" y="423" width="42" height="32"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="kCt-5v-l5P">
+                                <rect key="frame" x="578" y="500" width="42" height="32"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="87G-Dz-FKT">
+                                <rect key="frame" x="578" y="577" width="42" height="32"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="left" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="7jc-dP-m19">
+                                <rect key="frame" x="137" y="633" width="69" height="30"/>
+                                <animations/>
+                                <fontDescription key="fontDescription" type="system" pointSize="22"/>
+                                <state key="normal" title="Clear">
+                                    <color key="titleColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <connections>
+                                    <action selector="resetForm:" destination="Dny-yN-bUy" eventType="touchUpInside" id="4Kr-vu-BDt"/>
+                                </connections>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="hrQ-MR-Xgv">
+                                <rect key="frame" x="578" y="269" width="42" height="32"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CBS eye gold" translatesAutoresizingMaskIntoConstraints="NO" id="zgD-Sq-hbs">
+                                <rect key="frame" x="293" y="20" width="192" height="192"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
                         <animations/>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="company" destination="mlw-cI-IKL" id="MEZ-7c-gCM"/>
+                        <outlet property="companyCheck" destination="kCt-5v-l5P" id="fmo-d5-4ZA"/>
+                        <outlet property="deviceID" destination="eh6-Qj-9nu" id="B8G-xX-m1M"/>
+                        <outlet property="email" destination="HE8-R1-gbs" id="IkC-hp-kmg"/>
+                        <outlet property="emailCheck" destination="1mq-ub-XKF" id="ldE-8I-Q36"/>
+                        <outlet property="firstName" destination="8MU-nR-XUB" id="DZq-rH-fPZ"/>
+                        <outlet property="firstNameCheck" destination="hrQ-MR-Xgv" id="GBG-RR-bIG"/>
+                        <outlet property="lastName" destination="HeQ-P2-EsC" id="weQ-eX-akd"/>
+                        <outlet property="lastNameCheck" destination="E3o-9i-h6i" id="Jtq-JJ-XfD"/>
+                        <outlet property="nextButton" destination="wWP-xv-13W" id="00D-1Q-86w"/>
+                        <outlet property="zipCode" destination="IhW-mv-Rw9" id="gUD-cZ-wz2"/>
+                        <outlet property="zipCodeCheck" destination="87G-Dz-FKT" id="1hb-wb-iUH"/>
+                        <segue destination="JW2-fq-9g0" kind="unwind" identifier="unwindFromLoginVC" unwindAction="unwindToContainerVC:" id="JhK-xe-spx"/>
+                    </connections>
                 </viewController>
-                <placeholder placeholderIdentifier="IBFirstResponder" id="K1k-ON-6u9" userLabel="First Responder" sceneMemberID="firstResponder"/>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="Avl-cH-yRY" sceneMemberID="firstResponder"/>
+                <exit id="JW2-fq-9g0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1206" y="315"/>
+            <point key="canvasLocation" x="1197" y="315"/>
         </scene>
     </scenes>
     <resources>
         <image name="Black5" width="768" height="1024"/>
+        <image name="CBS eye gold" width="230" height="230"/>
+        <image name="check" width="102" height="76"/>
+        <image name="next_button" width="212" height="212"/>
+        <image name="text_field_back" width="1088" height="188"/>
     </resources>
 </document>
