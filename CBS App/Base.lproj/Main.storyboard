@@ -1,5 +1,5 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="Dny-yN-bUy">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TLx-9j-Cz6">
     <dependencies>
         <deployment identifier="iOS"/>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
@@ -17,12 +17,8 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black5" translatesAutoresizingMaskIntoConstraints="NO" id="k3Q-nz-9Nl">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LightSplash" translatesAutoresizingMaskIntoConstraints="NO" id="k3Q-nz-9Nl">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
-                                <animations/>
-                            </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CBS eye gold" translatesAutoresizingMaskIntoConstraints="NO" id="LrL-1j-qye">
-                                <rect key="frame" x="264" y="392" width="240" height="240"/>
                                 <animations/>
                             </imageView>
                         </subviews>
@@ -47,7 +43,7 @@
                         <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                         <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                         <subviews>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="Black5" translatesAutoresizingMaskIntoConstraints="NO" id="AgR-a0-BAf">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleAspectFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LightBG" translatesAutoresizingMaskIntoConstraints="NO" id="AgR-a0-BAf">
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <animations/>
                             </imageView>
@@ -133,19 +129,19 @@
                                 <color key="textColor" white="1" alpha="1" colorSpace="calibratedWhite"/>
                                 <nil key="highlightedColor"/>
                             </label>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="E3o-9i-h6i">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlueCheck" translatesAutoresizingMaskIntoConstraints="NO" id="E3o-9i-h6i">
                                 <rect key="frame" x="578" y="346" width="42" height="32"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="1mq-ub-XKF">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlueCheck" translatesAutoresizingMaskIntoConstraints="NO" id="1mq-ub-XKF">
                                 <rect key="frame" x="578" y="423" width="42" height="32"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="kCt-5v-l5P">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlueCheck" translatesAutoresizingMaskIntoConstraints="NO" id="kCt-5v-l5P">
                                 <rect key="frame" x="578" y="500" width="42" height="32"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="87G-Dz-FKT">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlueCheck" translatesAutoresizingMaskIntoConstraints="NO" id="87G-Dz-FKT">
                                 <rect key="frame" x="578" y="577" width="42" height="32"/>
                                 <animations/>
                             </imageView>
@@ -161,12 +157,12 @@
                                     <action selector="resetForm:" destination="Dny-yN-bUy" eventType="touchUpInside" id="4Kr-vu-BDt"/>
                                 </connections>
                             </button>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="check" translatesAutoresizingMaskIntoConstraints="NO" id="hrQ-MR-Xgv">
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="BlueCheck" translatesAutoresizingMaskIntoConstraints="NO" id="hrQ-MR-Xgv">
                                 <rect key="frame" x="578" y="269" width="42" height="32"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CBS eye gold" translatesAutoresizingMaskIntoConstraints="NO" id="zgD-Sq-hbs">
-                                <rect key="frame" x="293" y="20" width="192" height="192"/>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CBS eye blue" translatesAutoresizingMaskIntoConstraints="NO" id="zgD-Sq-hbs">
+                                <rect key="frame" x="293" y="28" width="192" height="192"/>
                                 <animations/>
                             </imageView>
                         </subviews>
@@ -195,12 +191,73 @@
             </objects>
             <point key="canvasLocation" x="1197" y="315"/>
         </scene>
+        <!--Match Screen-->
+        <scene sceneID="9hH-hN-kAV">
+            <objects>
+                <viewController id="TLx-9j-Cz6" customClass="MatchScreen" customModule="CBS_App" customModuleProvider="target" sceneMemberID="viewController">
+                    <layoutGuides>
+                        <viewControllerLayoutGuide type="top" id="AsW-Rc-v07"/>
+                        <viewControllerLayoutGuide type="bottom" id="cOo-w2-RFG"/>
+                    </layoutGuides>
+                    <view key="view" contentMode="scaleToFill" id="2gj-NK-Qdg">
+                        <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                        <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
+                        <subviews>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="LightBG" translatesAutoresizingMaskIntoConstraints="NO" id="Rzn-IL-FP0">
+                                <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
+                                <animations/>
+                            </imageView>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ActorCircle" translatesAutoresizingMaskIntoConstraints="NO" id="6sm-76-XuP">
+                                <rect key="frame" x="178" y="146" width="412" height="383"/>
+                                <animations/>
+                            </imageView>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lg-dg-8cu">
+                                <rect key="frame" x="20" y="782" width="355" height="194"/>
+                                <animations/>
+                                <state key="normal" image="mandm"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ep3-we-SOA">
+                                <rect key="frame" x="393" y="782" width="355" height="194"/>
+                                <animations/>
+                                <state key="normal" image="crimmind"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vV-fy-ZXE">
+                                <rect key="frame" x="393" y="580" width="355" height="194"/>
+                                <animations/>
+                                <state key="normal" image="supergirlLogo"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2K-5l-Pvr">
+                                <rect key="frame" x="20" y="580" width="355" height="194"/>
+                                <animations/>
+                                <state key="normal" image="bigbangLogo"/>
+                            </button>
+                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CBS eye clear" translatesAutoresizingMaskIntoConstraints="NO" id="2Jz-Ek-s1Y">
+                                <rect key="frame" x="598" y="28" width="98" height="101"/>
+                                <animations/>
+                            </imageView>
+                        </subviews>
+                        <animations/>
+                        <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                    </view>
+                    <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                </viewController>
+                <placeholder placeholderIdentifier="IBFirstResponder" id="KZV-rr-cQE" sceneMemberID="firstResponder"/>
+            </objects>
+            <point key="canvasLocation" x="1996" y="315"/>
+        </scene>
     </scenes>
     <resources>
-        <image name="Black5" width="768" height="1024"/>
-        <image name="CBS eye gold" width="230" height="230"/>
-        <image name="check" width="102" height="76"/>
+        <image name="ActorCircle" width="960" height="906"/>
+        <image name="BlueCheck" width="358" height="268"/>
+        <image name="CBS eye blue" width="690" height="696"/>
+        <image name="CBS eye clear" width="198" height="200"/>
+        <image name="LightBG" width="1536" height="2048"/>
+        <image name="LightSplash" width="1536" height="2048"/>
+        <image name="bigbangLogo" width="1065" height="582"/>
+        <image name="crimmind" width="1065" height="582"/>
+        <image name="mandm" width="1065" height="582"/>
         <image name="next_button" width="212" height="212"/>
+        <image name="supergirlLogo" width="1065" height="582"/>
         <image name="text_field_back" width="1088" height="188"/>
     </resources>
 </document>
