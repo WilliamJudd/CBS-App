@@ -207,32 +207,24 @@
                                 <rect key="frame" x="0.0" y="0.0" width="768" height="1024"/>
                                 <animations/>
                             </imageView>
-                            <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="ActorCircle" translatesAutoresizingMaskIntoConstraints="NO" id="6sm-76-XuP">
-                                <rect key="frame" x="178" y="146" width="412" height="383"/>
-                                <animations/>
-                            </imageView>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lg-dg-8cu">
-                                <rect key="frame" x="20" y="782" width="355" height="194"/>
-                                <animations/>
-                                <state key="normal" image="mandm"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ep3-we-SOA">
-                                <rect key="frame" x="393" y="782" width="355" height="194"/>
-                                <animations/>
-                                <state key="normal" image="crimmind"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vV-fy-ZXE">
-                                <rect key="frame" x="393" y="580" width="355" height="194"/>
-                                <animations/>
-                                <state key="normal" image="supergirlLogo"/>
-                            </button>
-                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2K-5l-Pvr">
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="S2K-5l-Pvr" userLabel="Button1">
                                 <rect key="frame" x="20" y="580" width="355" height="194"/>
                                 <animations/>
-                                <state key="normal" image="bigbangLogo"/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="9vV-fy-ZXE" userLabel="Button2">
+                                <rect key="frame" x="393" y="580" width="355" height="194"/>
+                                <animations/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="5lg-dg-8cu" userLabel="Button3">
+                                <rect key="frame" x="20" y="782" width="355" height="194"/>
+                                <animations/>
+                            </button>
+                            <button opaque="NO" contentMode="scaleToFill" fixedFrame="YES" contentHorizontalAlignment="center" contentVerticalAlignment="center" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="ep3-we-SOA" userLabel="Button4">
+                                <rect key="frame" x="393" y="782" width="355" height="194"/>
+                                <animations/>
                             </button>
                             <imageView userInteractionEnabled="NO" contentMode="scaleToFill" horizontalHuggingPriority="251" verticalHuggingPriority="251" fixedFrame="YES" image="CBS eye clear" translatesAutoresizingMaskIntoConstraints="NO" id="2Jz-Ek-s1Y">
-                                <rect key="frame" x="598" y="28" width="98" height="101"/>
+                                <rect key="frame" x="615" y="57" width="98" height="101"/>
                                 <animations/>
                             </imageView>
                         </subviews>
@@ -240,6 +232,12 @@
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
                     </view>
                     <simulatedScreenMetrics key="simulatedDestinationMetrics" type="iPad"/>
+                    <connections>
+                        <outlet property="button1" destination="S2K-5l-Pvr" id="9S9-iy-cs9"/>
+                        <outlet property="button2" destination="9vV-fy-ZXE" id="TQg-cq-nb7"/>
+                        <outlet property="button3" destination="5lg-dg-8cu" id="Vh3-EY-yOf"/>
+                        <outlet property="button4" destination="ep3-we-SOA" id="Yn9-5K-3cl"/>
+                    </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KZV-rr-cQE" sceneMemberID="firstResponder"/>
             </objects>
@@ -247,17 +245,12 @@
         </scene>
     </scenes>
     <resources>
-        <image name="ActorCircle" width="960" height="906"/>
         <image name="BlueCheck" width="358" height="268"/>
         <image name="CBS eye blue" width="690" height="696"/>
         <image name="CBS eye clear" width="198" height="200"/>
         <image name="LightBG" width="1536" height="2048"/>
         <image name="LightSplash" width="1536" height="2048"/>
-        <image name="bigbangLogo" width="1065" height="582"/>
-        <image name="crimmind" width="1065" height="582"/>
-        <image name="mandm" width="1065" height="582"/>
         <image name="next_button" width="212" height="212"/>
-        <image name="supergirlLogo" width="1065" height="582"/>
         <image name="text_field_back" width="1088" height="188"/>
     </resources>
 </document>
