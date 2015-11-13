@@ -85,7 +85,9 @@ strip_invalid_archs() {
 
 if [[ "$CONFIGURATION" == "Debug" ]]; then
   install_framework "Pods-CBS AppUITests/Firebase.framework"
+  install_framework "Pods-CBS AppUITests/KDCircularProgress.framework"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
   install_framework "Pods-CBS AppUITests/Firebase.framework"
+  install_framework "Pods-CBS AppUITests/KDCircularProgress.framework"
 fi

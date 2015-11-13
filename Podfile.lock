@@ -1,10 +1,13 @@
 PODS:
   - Firebase (2.4.2)
+  - KDCircularProgress (1.3.1)
 
 DEPENDENCIES:
   - Firebase (>= 2.4.2)
+  - KDCircularProgress (~> 1.3)
 
 SPEC CHECKSUMS:
   Firebase: 5e898ed5012c81d28ca5fae1113c6b61a172bc6d
+  KDCircularProgress: e228fed41be5b0dd7c60450255b5b9dbc5cc8460
 
 COCOAPODS: 0.39.0

@@ -10,10 +10,14 @@ import UIKit
 
 class HomeScreen: UIViewController {
 
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+        
+        let score = NSUserDefaults.standardUserDefaults().integerForKey("score")
+        print("Score: \(score)")
+      
     }
 
     override func didReceiveMemoryWarning() {

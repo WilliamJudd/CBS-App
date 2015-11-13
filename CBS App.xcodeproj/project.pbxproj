@@ -19,6 +19,8 @@
 		3D9432FF1BEEA06100EEAD73 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9432FE1BEEA06100EEAD73 /* HomeScreen.swift */; };
 		3D9BB8CC1BEEBB970021B352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BB8CB1BEEBB970021B352 /* AppDelegate.swift */; };
 		3D9BB8CE1BEEBB9F0021B352 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BB8CD1BEEBB9F0021B352 /* SignUpViewController.swift */; };
+		3DF411DC1BF544370041FAB7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF411DB1BF544370041FAB7 /* Extensions.swift */; };
+		3DF411DF1BF564960041FAB7 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF411DE1BF564960041FAB7 /* KDCircularProgress.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -57,6 +59,8 @@
 		3D9432FE1BEEA06100EEAD73 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		3D9BB8CB1BEEBB970021B352 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D9BB8CD1BEEBB9F0021B352 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3DF411DB1BF544370041FAB7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
+		3DF411DE1BF564960041FAB7 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		48076DD9EF7F1553D51E5176 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 		899027226095310AC13F43E4 /* Pods.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
@@ -124,12 +128,9 @@
 				3D9432FE1BEEA06100EEAD73 /* HomeScreen.swift */,
 				3D9BB8CD1BEEBB9F0021B352 /* SignUpViewController.swift */,
 				3D7918AE1BF3D84F00852C81 /* ImageViewController.swift */,
-				3D7918B01BF3D85600852C81 /* Configuration.swift */,
 				3D9432D41BEE953800EEAD73 /* Main.storyboard */,
-				3D7918DF1BF3DC8B00852C81 /* ImageQuiz.plist */,
 				3D9432D71BEE953800EEAD73 /* Assets.xcassets */,
-				3D9432D91BEE953800EEAD73 /* LaunchScreen.storyboard */,
-				3D9432DC1BEE953800EEAD73 /* Info.plist */,
+				3DF411DD1BF5645A0041FAB7 /* Supporting Files */,
 			);
 			path = "CBS App";
 			sourceTree = "<group>";
@@ -150,6 +151,19 @@
 				3D9432F21BEE953800EEAD73 /* Info.plist */,
 			);
 			path = "CBS AppUITests";
+			sourceTree = "<group>";
+		};
+		3DF411DD1BF5645A0041FAB7 /* Supporting Files */ = {
+			isa = PBXGroup;
+			children = (
+				3DF411DE1BF564960041FAB7 /* KDCircularProgress.swift */,
+				3D7918B01BF3D85600852C81 /* Configuration.swift */,
+				3DF411DB1BF544370041FAB7 /* Extensions.swift */,
+				3D7918DF1BF3DC8B00852C81 /* ImageQuiz.plist */,
+				3D9432D91BEE953800EEAD73 /* LaunchScreen.storyboard */,
+				3D9432DC1BEE953800EEAD73 /* Info.plist */,
+			);
+			name = "Supporting Files";
 			sourceTree = "<group>";
 		};
 		5760F0FBEC4480B42A363423 /* Pods */ = {
@@ -345,10 +359,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				3D9BB8CE1BEEBB9F0021B352 /* SignUpViewController.swift in Sources */,
+				3DF411DC1BF544370041FAB7 /* Extensions.swift in Sources */,
 				3D7918B11BF3D85600852C81 /* Configuration.swift in Sources */,
 				3D9BB8CC1BEEBB970021B352 /* AppDelegate.swift in Sources */,
 				3D7918AF1BF3D84F00852C81 /* ImageViewController.swift in Sources */,
 				3D9432FF1BEEA06100EEAD73 /* HomeScreen.swift in Sources */,
+				3DF411DF1BF564960041FAB7 /* KDCircularProgress.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
