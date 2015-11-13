@@ -18,3 +18,4 @@ end
 use_frameworks!
 
 pod 'Firebase', '>= 2.4.2'
+pod 'KDCircularProgress', '~> 1.3'

@@ -9,6 +9,11 @@
 			<key>isShown</key>
 			<false/>
 		</dict>
+		<key>KDCircularProgress.xcscheme</key>
+		<dict>
+			<key>isShown</key>
+			<false/>
+		</dict>
 		<key>Pods-CBS App.xcscheme</key>
 		<dict>
 			<key>isShown</key>
@@ -32,27 +37,32 @@
 	</dict>
 	<key>SuppressBuildableAutocreation</key>
 	<dict>
-		<key>0D8D783409DC7B70A6C9C4D8D5C46790</key>
+		<key>31C4BA1941E54C1EB28C8AAA52B749F7</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>2E4D4BEF263CFDF69854382E7F1951DA</key>
+		<key>7303F58AC5BA5F5F81F6BE5FE73A50BC</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
-		<key>52AF483C733BD7C6755EF56C98D81E97</key>
-		<dict>
-			<key>primary</key>
-			<true/>
-		</dict>
-		<key>A2F6E21B670DC565238510DE02DEA9F1</key>
+		<key>9558B32FB980ED0E42BF1BD3AEC626CE</key>
 		<dict>
 			<key>primary</key>
 			<true/>
 		</dict>
 		<key>B7AC9326D819482593FE118E915409D7</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>BBE8023A324BAD85BCD1FCDF22A511C3</key>
+		<dict>
+			<key>primary</key>
+			<true/>
+		</dict>
+		<key>EE527A3B0E4D092AF9248F6A7B02874A</key>
 		<dict>
 			<key>primary</key>
 			<true/>

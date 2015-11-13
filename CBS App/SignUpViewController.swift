@@ -61,10 +61,8 @@ class SignUpViewController: UIViewController {
         
         updateTimer = NSTimer.scheduledTimerWithTimeInterval(15.0, target: self, selector: "reAuth", userInfo: nil, repeats: true)
         
-//        updateTimer = NSTimer.scheduledTimerWithTimeInterval(15.0, target: self, selector: "reAuth", userInfo: nil, repeats: true)
-//    
     
-    // Firebase update to see if anybody is using the app.
+        loadQuizData()
     
     }
     
@@ -79,7 +77,7 @@ class SignUpViewController: UIViewController {
         recordRef = appDelegate.ref.childByAutoId()
         recordRef.setValue(["deviceID": deviceID.text!, "firstName": firstName.text!, "lastName": lastName.text!, "email": email.text!, "company": company.text!, "zipCode": zipCode.text!,"picks" : "", "timestamp": [".sv":"timestamp"]])
 
-//                performSegueWithIdentifier("picks", sender: nil)
+                performSegueWithIdentifier("picks", sender: nil)
     
     
     }
@@ -154,6 +152,21 @@ class SignUpViewController: UIViewController {
     
     func timeToMoveOn() {
         self.performSegueWithIdentifier("unwindFromLoginVC", sender: self)
+        
+    }
+    func loadQuizData() {
+        
+        
+        //Imgage Quiz Data
+        let pathIMG = NSBundle.mainBundle().pathForResource("ImageQuiz", ofType: "plist")
+        let dictIMG = NSDictionary(contentsOfFile: pathIMG!)
+        imgArray = dictIMG!["Questions"]!.mutableCopy() as? Array
+        
+        check()
+    }
+    
+    func check() {
+        print(imgArray)
         
     }
 

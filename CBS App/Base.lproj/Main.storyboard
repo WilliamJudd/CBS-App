@@ -1,8 +1,8 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?>
-<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9059" systemVersion="15A284" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TLx-9j-Cz6">
+<document type="com.apple.InterfaceBuilder3.CocoaTouch.Storyboard.XIB" version="3.0" toolsVersion="9060" systemVersion="15B42" targetRuntime="iOS.CocoaTouch" propertyAccessControl="none" useAutolayout="YES" useTraitCollections="YES" initialViewController="TLx-9j-Cz6">
     <dependencies>
         <deployment identifier="iOS"/>
-        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9049"/>
+        <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="9051"/>
     </dependencies>
     <scenes>
         <!--Home Screen-->
@@ -29,7 +29,7 @@
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="dkx-z0-nzr" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="380" y="315"/>
+            <point key="canvasLocation" x="2852" y="315"/>
         </scene>
         <!--Sign Up View Controller-->
         <scene sceneID="ikg-ok-VfA">
@@ -183,13 +183,12 @@
                         <outlet property="nextButton" destination="wWP-xv-13W" id="00D-1Q-86w"/>
                         <outlet property="zipCode" destination="IhW-mv-Rw9" id="gUD-cZ-wz2"/>
                         <outlet property="zipCodeCheck" destination="87G-Dz-FKT" id="1hb-wb-iUH"/>
-                        <segue destination="JW2-fq-9g0" kind="unwind" identifier="unwindFromLoginVC" unwindAction="unwindToContainerVC:" id="JhK-xe-spx"/>
+                        <segue destination="TLx-9j-Cz6" kind="show" identifier="picks" id="edp-lv-gK0"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="Avl-cH-yRY" sceneMemberID="firstResponder"/>
-                <exit id="JW2-fq-9g0" userLabel="Exit" sceneMemberID="exit"/>
             </objects>
-            <point key="canvasLocation" x="1197" y="315"/>
+            <point key="canvasLocation" x="957" y="315"/>
         </scene>
         <!--Image View Controller-->
         <scene sceneID="9hH-hN-kAV">
@@ -254,11 +253,12 @@
                         <outletCollection property="answerButtons" destination="5lg-dg-8cu" collectionClass="NSMutableArray" id="RB4-2l-Mav"/>
                         <outletCollection property="answerButtons" destination="9vV-fy-ZXE" collectionClass="NSMutableArray" id="HQF-p7-Gmb"/>
                         <outletCollection property="answerButtons" destination="ep3-we-SOA" collectionClass="NSMutableArray" id="g9S-Eh-jRA"/>
+                        <segue destination="BYZ-38-t0r" kind="show" identifier="done" id="sY5-PI-cbs"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="KZV-rr-cQE" sceneMemberID="firstResponder"/>
             </objects>
-            <point key="canvasLocation" x="1996" y="315"/>
+            <point key="canvasLocation" x="1908" y="315"/>
         </scene>
     </scenes>
     <resources>
