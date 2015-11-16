@@ -15,8 +15,7 @@ class HomeScreen: UIViewController {
     override func viewDidLoad() {
         super.viewDidLoad()
         
-        let score = NSUserDefaults.standardUserDefaults().integerForKey("score")
-        print("Score: \(score)")
+      
       
     }
 
@@ -24,6 +23,7 @@ class HomeScreen: UIViewController {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
     
 
     /*
