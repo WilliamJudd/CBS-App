@@ -81,18 +81,13 @@ class SignUpViewController: UIViewController {
     
     
     }
-//    
-//    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
-//        if segue.identifier == "picks" {
-//            let nfcPicksViewController = segue.destinationViewController as! NFCPicksViewController
-//            nfcPicksViewController.recordRef = recordRef
-//            
-//            
-//            
-//            //            nfcPicksViewController.toRecipient = email.text
-//            resetForm(self)
-//        }
-//    }
+    
+    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject!) {
+        if segue.identifier == "picks" {
+            _ = segue.destinationViewController as! ImageViewController
+            resetForm(self)
+        }
+    }
 
     
     func validateForm() {
@@ -167,6 +162,10 @@ class SignUpViewController: UIViewController {
     
     func check() {
         print(imgArray)
+        
+    }
+    
+    @IBAction func unwindToContainerVC(segue: UIStoryboardSegue) {
         
     }
 
