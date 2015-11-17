@@ -8,12 +8,9 @@
 
 /* Begin PBXBuildFile section */
 		275A884729B5586C4111FB71 /* Pods.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 899027226095310AC13F43E4 /* Pods.framework */; };
-		3D1289391BF927F000699149 /* cbsAlert1.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1289381BF927F000699149 /* cbsAlert1.png */; };
 		3D12893B1BF9282F00699149 /* cbsButton.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12893A1BF9282F00699149 /* cbsButton.png */; };
 		3D12893D1BF9346900699149 /* cbsAlert2.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12893C1BF9346900699149 /* cbsAlert2.png */; };
 		3D12893F1BF93E5600699149 /* Congratulations!.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D12893E1BF93E5600699149 /* Congratulations!.png */; };
-		3D1289421BF93F8300699149 /* powerBank.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1289401BF93F8300699149 /* powerBank.png */; };
-		3D1289431BF93F8300699149 /* stressBall.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1289411BF93F8300699149 /* stressBall.png */; };
 		3D1289451BF93FC100699149 /* You Won!.png in Resources */ = {isa = PBXBuildFile; fileRef = 3D1289441BF93FC100699149 /* You Won!.png */; };
 		3D1289471BF93FFB00699149 /* WinnerViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D1289461BF93FFB00699149 /* WinnerViewController.swift */; };
 		3D7918AF1BF3D84F00852C81 /* ImageViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D7918AE1BF3D84F00852C81 /* ImageViewController.swift */; };
@@ -27,6 +24,12 @@
 		3D9432FF1BEEA06100EEAD73 /* HomeScreen.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9432FE1BEEA06100EEAD73 /* HomeScreen.swift */; };
 		3D9BB8CC1BEEBB970021B352 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BB8CB1BEEBB970021B352 /* AppDelegate.swift */; };
 		3D9BB8CE1BEEBB9F0021B352 /* SignUpViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3D9BB8CD1BEEBB9F0021B352 /* SignUpViewController.swift */; };
+		3DD167651BFBBD270071C0F5 /* Congratulations.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD167641BFBBD270071C0F5 /* Congratulations.png */; };
+		3DD167691BFBC3960071C0F5 /* Words.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD167681BFBC3960071C0F5 /* Words.png */; };
+		3DD99AFB1BFBA54B004FFC67 /* SOUTHEASTERN LOGO- HORIZONTAL WHITE.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD99AF91BFBA54B004FFC67 /* SOUTHEASTERN LOGO- HORIZONTAL WHITE.png */; };
+		3DD99AFC1BFBA54B004FFC67 /* SOUTHEASTERN LOGO- HORIZONTAL.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD99AFA1BFBA54B004FFC67 /* SOUTHEASTERN LOGO- HORIZONTAL.png */; };
+		3DD99B001BFBA628004FFC67 /* thinkJineus.png in Resources */ = {isa = PBXBuildFile; fileRef = 3DD99AFF1BFBA628004FFC67 /* thinkJineus.png */; };
+		3DDE93621BFA69CE00D92F70 /* BLACKJAR.TTF in Resources */ = {isa = PBXBuildFile; fileRef = 3DDE93611BFA69AE00D92F70 /* BLACKJAR.TTF */; };
 		3DF411DC1BF544370041FAB7 /* Extensions.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF411DB1BF544370041FAB7 /* Extensions.swift */; };
 		3DF411DF1BF564960041FAB7 /* KDCircularProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3DF411DE1BF564960041FAB7 /* KDCircularProgress.swift */; };
 /* End PBXBuildFile section */
@@ -50,12 +53,9 @@
 
 /* Begin PBXFileReference section */
 		2DF24F9E5D5E73A8660D01FE /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.release.xcconfig; path = "Pods/Target Support Files/Pods/Pods.release.xcconfig"; sourceTree = "<group>"; };
-		3D1289381BF927F000699149 /* cbsAlert1.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbsAlert1.png; sourceTree = "<group>"; };
 		3D12893A1BF9282F00699149 /* cbsButton.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbsButton.png; sourceTree = "<group>"; };
 		3D12893C1BF9346900699149 /* cbsAlert2.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = cbsAlert2.png; sourceTree = "<group>"; };
 		3D12893E1BF93E5600699149 /* Congratulations!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "Congratulations!.png"; sourceTree = "<group>"; };
-		3D1289401BF93F8300699149 /* powerBank.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = powerBank.png; sourceTree = "<group>"; };
-		3D1289411BF93F8300699149 /* stressBall.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = stressBall.png; sourceTree = "<group>"; };
 		3D1289441BF93FC100699149 /* You Won!.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "You Won!.png"; sourceTree = "<group>"; };
 		3D1289461BF93FFB00699149 /* WinnerViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WinnerViewController.swift; sourceTree = "<group>"; };
 		3D7918AE1BF3D84F00852C81 /* ImageViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = ImageViewController.swift; sourceTree = "<group>"; };
@@ -75,6 +75,17 @@
 		3D9432FE1BEEA06100EEAD73 /* HomeScreen.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = HomeScreen.swift; sourceTree = "<group>"; };
 		3D9BB8CB1BEEBB970021B352 /* AppDelegate.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		3D9BB8CD1BEEBB9F0021B352 /* SignUpViewController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = SignUpViewController.swift; sourceTree = "<group>"; };
+		3DD167641BFBBD270071C0F5 /* Congratulations.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Congratulations.png; sourceTree = "<group>"; };
+		3DD167681BFBC3960071C0F5 /* Words.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = Words.png; sourceTree = "<group>"; };
+		3DD99AF91BFBA54B004FFC67 /* SOUTHEASTERN LOGO- HORIZONTAL WHITE.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOUTHEASTERN LOGO- HORIZONTAL WHITE.png"; sourceTree = "<group>"; };
+		3DD99AFA1BFBA54B004FFC67 /* SOUTHEASTERN LOGO- HORIZONTAL.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = "SOUTHEASTERN LOGO- HORIZONTAL.png"; sourceTree = "<group>"; };
+		3DD99AFF1BFBA628004FFC67 /* thinkJineus.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = thinkJineus.png; sourceTree = "<group>"; };
+		3DDE935C1BFA694A00D92F70 /* Flat-UI-Icons-16.dev.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Flat-UI-Icons-16.dev.svg"; sourceTree = "<group>"; };
+		3DDE935D1BFA694A00D92F70 /* Flat-UI-Icons-16.eot */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flat-UI-Icons-16.eot"; sourceTree = "<group>"; };
+		3DDE935E1BFA694A00D92F70 /* Flat-UI-Icons-16.svg */ = {isa = PBXFileReference; lastKnownFileType = text.xml; path = "Flat-UI-Icons-16.svg"; sourceTree = "<group>"; };
+		3DDE935F1BFA694A00D92F70 /* Flat-UI-Icons-16.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flat-UI-Icons-16.ttf"; sourceTree = "<group>"; };
+		3DDE93601BFA694A00D92F70 /* Flat-UI-Icons-16.woff */ = {isa = PBXFileReference; lastKnownFileType = file; path = "Flat-UI-Icons-16.woff"; sourceTree = "<group>"; };
+		3DDE93611BFA69AE00D92F70 /* BLACKJAR.TTF */ = {isa = PBXFileReference; lastKnownFileType = file; path = BLACKJAR.TTF; sourceTree = "<group>"; };
 		3DF411DB1BF544370041FAB7 /* Extensions.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Extensions.swift; sourceTree = "<group>"; };
 		3DF411DE1BF564960041FAB7 /* KDCircularProgress.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = KDCircularProgress.swift; sourceTree = "<group>"; };
 		48076DD9EF7F1553D51E5176 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
@@ -118,13 +129,15 @@
 		3D1289351BF9244200699149 /* Alerts */ = {
 			isa = PBXGroup;
 			children = (
+				3DD167681BFBC3960071C0F5 /* Words.png */,
+				3DD99AFF1BFBA628004FFC67 /* thinkJineus.png */,
+				3DD167641BFBBD270071C0F5 /* Congratulations.png */,
+				3DD99AF91BFBA54B004FFC67 /* SOUTHEASTERN LOGO- HORIZONTAL WHITE.png */,
+				3DD99AFA1BFBA54B004FFC67 /* SOUTHEASTERN LOGO- HORIZONTAL.png */,
 				3D1289441BF93FC100699149 /* You Won!.png */,
 				3D12893C1BF9346900699149 /* cbsAlert2.png */,
-				3D1289381BF927F000699149 /* cbsAlert1.png */,
 				3D12893A1BF9282F00699149 /* cbsButton.png */,
 				3D12893E1BF93E5600699149 /* Congratulations!.png */,
-				3D1289401BF93F8300699149 /* powerBank.png */,
-				3D1289411BF93F8300699149 /* stressBall.png */,
 			);
 			name = Alerts;
 			sourceTree = "<group>";
@@ -132,6 +145,7 @@
 		3D9432C41BEE953800EEAD73 = {
 			isa = PBXGroup;
 			children = (
+				3DDE935B1BFA694A00D92F70 /* fonts */,
 				3D9432CF1BEE953800EEAD73 /* CBS App */,
 				3D9432E41BEE953800EEAD73 /* CBS AppTests */,
 				3D9432EF1BEE953800EEAD73 /* CBS AppUITests */,
@@ -184,9 +198,22 @@
 			path = "CBS AppUITests";
 			sourceTree = "<group>";
 		};
+		3DDE935B1BFA694A00D92F70 /* fonts */ = {
+			isa = PBXGroup;
+			children = (
+				3DDE935C1BFA694A00D92F70 /* Flat-UI-Icons-16.dev.svg */,
+				3DDE935D1BFA694A00D92F70 /* Flat-UI-Icons-16.eot */,
+				3DDE935E1BFA694A00D92F70 /* Flat-UI-Icons-16.svg */,
+				3DDE935F1BFA694A00D92F70 /* Flat-UI-Icons-16.ttf */,
+				3DDE93601BFA694A00D92F70 /* Flat-UI-Icons-16.woff */,
+			);
+			path = fonts;
+			sourceTree = "<group>";
+		};
 		3DF411DD1BF5645A0041FAB7 /* Supporting Files */ = {
 			isa = PBXGroup;
 			children = (
+				3DDE93611BFA69AE00D92F70 /* BLACKJAR.TTF */,
 				3D1289351BF9244200699149 /* Alerts */,
 				3DF411DE1BF564960041FAB7 /* KDCircularProgress.swift */,
 				3D7918B01BF3D85600852C81 /* Configuration.swift */,
@@ -278,6 +305,7 @@
 				TargetAttributes = {
 					3D9432CC1BEE953800EEAD73 = {
 						CreatedOnToolsVersion = 7.1;
+						DevelopmentTeam = UBNC2NGRMQ;
 					};
 					3D9432E01BEE953800EEAD73 = {
 						CreatedOnToolsVersion = 7.1;
@@ -314,14 +342,17 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D1289421BF93F8300699149 /* powerBank.png in Resources */,
-				3D1289391BF927F000699149 /* cbsAlert1.png in Resources */,
+				3DDE93621BFA69CE00D92F70 /* BLACKJAR.TTF in Resources */,
+				3DD99B001BFBA628004FFC67 /* thinkJineus.png in Resources */,
 				3D9432DB1BEE953800EEAD73 /* LaunchScreen.storyboard in Resources */,
+				3DD99AFC1BFBA54B004FFC67 /* SOUTHEASTERN LOGO- HORIZONTAL.png in Resources */,
 				3D1289451BF93FC100699149 /* You Won!.png in Resources */,
+				3DD99AFB1BFBA54B004FFC67 /* SOUTHEASTERN LOGO- HORIZONTAL WHITE.png in Resources */,
 				3D12893B1BF9282F00699149 /* cbsButton.png in Resources */,
+				3DD167691BFBC3960071C0F5 /* Words.png in Resources */,
 				3D9432D81BEE953800EEAD73 /* Assets.xcassets in Resources */,
+				3DD167651BFBBD270071C0F5 /* Congratulations.png in Resources */,
 				3D12893D1BF9346900699149 /* cbsAlert2.png in Resources */,
-				3D1289431BF93F8300699149 /* stressBall.png in Resources */,
 				3D12893F1BF93E5600699149 /* Congratulations!.png in Resources */,
 				3D7918E01BF3DC8B00852C81 /* ImageQuiz.plist in Resources */,
 				3D9432D61BEE953800EEAD73 /* Main.storyboard in Resources */,
@@ -547,6 +578,7 @@
 			baseConfigurationReference = 48076DD9EF7F1553D51E5176 /* Pods.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "CBS App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
@@ -560,6 +592,7 @@
 			baseConfigurationReference = 2DF24F9E5D5E73A8660D01FE /* Pods.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
 				INFOPLIST_FILE = "CBS App/Info.plist";
 				IPHONEOS_DEPLOYMENT_TARGET = 8.4;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";

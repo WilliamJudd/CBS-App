@@ -59,10 +59,10 @@ class SignUpViewController: UIViewController {
         company.addTarget(self, action: "validateForm", forControlEvents: UIControlEvents.EditingChanged)
         zipCode.addTarget(self, action: "validateForm", forControlEvents: UIControlEvents.EditingChanged)
         
-        updateTimer = NSTimer.scheduledTimerWithTimeInterval(15.0, target: self, selector: "reAuth", userInfo: nil, repeats: true)
         
     
         loadQuizData()
+        updateTimer = NSTimer.scheduledTimerWithTimeInterval(60.0, target: self, selector: "timeToMoveOn", userInfo: nil, repeats: false)
     
     }
     
@@ -78,7 +78,7 @@ class SignUpViewController: UIViewController {
         recordRef.setValue(["deviceID": deviceID.text!, "firstName": firstName.text!, "lastName": lastName.text!, "email": email.text!, "company": company.text!, "zipCode": zipCode.text!,"picks" : "", "timestamp": [".sv":"timestamp"]])
 
                 performSegueWithIdentifier("picks", sender: nil)
-    
+        updateTimer.invalidate()
     
     }
     
@@ -146,7 +146,7 @@ class SignUpViewController: UIViewController {
     
     
     func timeToMoveOn() {
-        self.performSegueWithIdentifier("unwindFromLoginVC", sender: self)
+        self.performSegueWithIdentifier("loginToWait", sender: self)
         
     }
     func loadQuizData() {
@@ -165,9 +165,7 @@ class SignUpViewController: UIViewController {
         
     }
     
-    @IBAction func unwindToContainerVC(segue: UIStoryboardSegue) {
-        
-    }
+   
 
     
     

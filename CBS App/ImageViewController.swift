@@ -144,9 +144,9 @@ class ImageViewController: UIViewController {
         alertView.layer.shadowRadius = 10.0;
         alertView.tag = 1
         
-        let alert = UIImage(named: "cbsAlert1") as UIImage!
+        let alert = UIImage(named: "Congratulations") as UIImage!
         let imageView = UIImageView(image: alert)
-        imageView.frame = CGRectMake((view.bounds.width - 506) / 2, (view.bounds.height - 391) / 2 - 30, 506, 391)
+        imageView.frame = CGRectMake((view.bounds.width - 506) / 2, (view.bounds.height - 353) / 2 - 30, 506, 353)
         imageView.alpha = 0.0
         
         // Ok Button
@@ -155,7 +155,7 @@ class ImageViewController: UIViewController {
         button.setTitleColor(UIColor.whiteColor(), forState: UIControlState.Normal)
         button.titleLabel?.font = UIFont(name: "Arial", size: 20)
         button.backgroundColor = UIColor(red: 0.29, green: 0.71, blue: 0.97, alpha: 1)
-        button.frame = CGRectMake((view.bounds.width - 350)/2 , (view.bounds.height - 65)/2 + 103, 350, 65)
+        button.frame = CGRectMake((view.bounds.width - 350)/2 , (view.bounds.height - 65)/2 + 90, 350, 65)
         button.layer.cornerRadius = 5
         button.addTarget(self, action: Selector("dismissA"), forControlEvents: UIControlEvents.TouchUpInside)
         button.bringSubviewToFront(button)

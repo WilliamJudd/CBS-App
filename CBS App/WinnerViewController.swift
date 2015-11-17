@@ -10,15 +10,36 @@ import UIKit
 
 class WinnerViewController: UIViewController {
 
+    @IBOutlet var scoreLabel: UILabel!
+    
+    
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
+        let touchCount = touches.count
+        
+        if touchCount == 2 {
+        
+            timeToMoveOn()
+            
+        }else{
+            
+        }
+    }
+
+    
+    
+    
     override func viewDidLoad() {
         super.viewDidLoad()
 
-         _ = NSTimer.scheduledTimerWithTimeInterval(8.0, target: self, selector: "timeToMoveOn", userInfo: nil, repeats: false)
+        
+        
+//         _ = NSTimer.scheduledTimerWithTimeInterval(8.0, target: self, selector: "timeToMoveOn", userInfo: nil, repeats: false)
         
         
         let score = NSUserDefaults.standardUserDefaults().integerForKey("score")
-        print("Score: \(score)")
-            
+        scoreLabel.text = "You got \(score) correct!"
+        
         
         if score < 5 {
             
@@ -26,15 +47,15 @@ class WinnerViewController: UIViewController {
             let stressBall = "stressBall"
             let image = UIImage(named: stressBall)
             let imageView = UIImageView(image: image!)
-            imageView.frame = CGRectMake((view.bounds.width - 325) / 2, (view.bounds.height - 325) / 2 - 100, 325, 325)
+            imageView.frame = CGRect(x: 130, y: 254, width: 509, height: 458)
             view.addSubview(imageView)
             
         }else{
             
-            let powerBank = "powerBank"
+            let powerBank = "PowerBank3"
             let image = UIImage(named: powerBank)
             let imageView = UIImageView(image: image!)
-            imageView.frame = CGRectMake((view.bounds.width - 520) / 2, (view.bounds.height - 180) / 2 - 100, 520, 180)
+            imageView.frame = CGRect(x: 130, y: 292, width: 509, height: 332)
             view.addSubview(imageView)
             
         }
@@ -51,14 +72,4 @@ class WinnerViewController: UIViewController {
         
     }
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
-    }
-    */
-
-}
+   }
