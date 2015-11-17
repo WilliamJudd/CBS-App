@@ -10,7 +10,14 @@ import UIKit
 
 class HomeScreen: UIViewController {
 
+    override func touchesBegan(touches: Set<UITouch>, withEvent event: UIEvent?) {
+        
+      
+        self.performSegueWithIdentifier("sign", sender: self)
+
     
+    }
+
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -26,14 +33,7 @@ class HomeScreen: UIViewController {
     
     
 
-    /*
-    // MARK: - Navigation
-
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepareForSegue(segue: UIStoryboardSegue, sender: AnyObject?) {
-        // Get the new view controller using segue.destinationViewController.
-        // Pass the selected object to the new view controller.
+    @IBAction func unwindToContainerVC(segue: UIStoryboardSegue) {
+        
     }
-    */
-
 }
